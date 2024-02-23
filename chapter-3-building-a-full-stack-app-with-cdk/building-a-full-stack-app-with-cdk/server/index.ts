@@ -19,7 +19,7 @@ const port = process.env.PORT || 80;
 /* ----------
  * DynamoDB Client (AWS SDK) for Node.js
  * ---------- */
-const ddbClient = new DynamoDBClient({ region: 'us-east-1' });
+const ddbClient = new DynamoDBClient({ region: 'ca-central-1' });
 
 const marshallOptions = {
   convertEmptyValues: false,
